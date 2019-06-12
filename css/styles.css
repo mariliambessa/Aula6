@@ -2,7 +2,7 @@ body {
 	margin: 0;
 }
 
-header {
+main > header {
 	background-color: red;
 	display: flex;
 	justify-content: center;
@@ -19,4 +19,19 @@ header > ul > li {
 	padding: 10px 20px;
 	display: inline;
 	border-radius: 5px;
+}
+
+article {
+	background-color: yellow;
+	margin: 20px 10% 0 10%;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: lightgreen;
+	padding: 50px 10px;
 }
