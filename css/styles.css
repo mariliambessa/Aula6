@@ -32,6 +32,8 @@ footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	background-color: lightgreen;
+	width: 100%;
+	background-color: orange;
+	color: white;
 	padding: 50px 10px;
 }
