@@ -7,6 +7,12 @@ main > header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 header > img {
@@ -15,7 +21,13 @@ header > img {
 
 header > ul > li {
 	background-color: orange;
-	color: white;
+	padding: 10px 20px;
+	display: inline;
+	border-radius: 5px;
+}
+
+header > ul > li:hover {
+	background-color: white;
 	padding: 10px 20px;
 	display: inline;
 	border-radius: 5px;
@@ -24,7 +36,7 @@ header > ul > li {
 article {
 	background-color: yellow;
 	margin: 20px 10% 0 10%;
-	padding: 15px;
+	padding: 10px;
 	border-radius: 10px;
 }
 
@@ -35,5 +47,22 @@ footer {
 	width: 100%;
 	background-color: orange;
 	color: white;
-	padding: 50px 10px;
+	padding: 5px;
+}
+
+#alinhamento {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#alinhamento > img {
+	display: flex;
+	border-radius: 5px;
+	transition: 1s;
+}
+
+#alinhamento > img:hover {
+	border-radius: 50%;
+	transition: 1s;
 }
